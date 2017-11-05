@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Matrix {
-    public static Matrix answer;
+    public static Matrix answer = new Matrix();
     public int row = 0, col = 0;
     public int [][] data = new int [10][10];
 
@@ -37,6 +37,7 @@ public class Matrix {
 
     public void testInput(){
 
+        // This method generates inputs 1 - n for testing purpose
         int a = 1;
 
         for (int i = 0; i <= (row - 1); i++)
@@ -60,10 +61,6 @@ public class Matrix {
 
             System.out.println();
         }
-    }
-
-    public void add(Matrix first){
-
     }
 
 }
