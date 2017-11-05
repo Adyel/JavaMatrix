@@ -12,12 +12,12 @@ public class Main {
         b.testInput();
 
         C.mul(a,b);
-
         Matrix.answer.getData();
 
         C.add(a, b);
-
         Matrix.answer.getData();
 
+        C.sub(a, b);
+        Matrix.answer.getData();
     }
 }
