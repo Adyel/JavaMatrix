@@ -20,5 +20,18 @@ public class Calc {
         }
     }
 
+    public void add(Matrix a, Matrix b) {
+
+
+        Matrix.answer.col = b.col;
+        Matrix.answer.row = a.row;
+
+        for (int i = 0; i <= (b.row - 1); i++) {
+            for (int j = 0; j <= (a.col - 1); j++) {
+                Matrix.answer.data[i][j] = a.data[i][j] + b.data[i][j];
+            }
+        }
+    }
+
 
 }

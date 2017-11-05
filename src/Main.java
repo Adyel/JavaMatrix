@@ -15,5 +15,9 @@ public class Main {
 
         Matrix.answer.getData();
 
+        C.add(a, b);
+
+        Matrix.answer.getData();
+
     }
 }
